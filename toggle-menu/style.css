@@ -7,6 +7,10 @@ body {
     height: 60px;
     background-color: #fff;
     display: flex;
-    flex-direction: space;
+    flex-wrap: wrap;
     z-index: 1000;
+}
+
+.btn-toggle {
+    
 }
