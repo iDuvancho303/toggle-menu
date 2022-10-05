@@ -14,7 +14,6 @@ body {
 .btn-toggle {
     width: 60px;
     height: 100%;
-    background-color: #001F3F;
-    background-image: url(./images/threelines.webp);
+    background-color: #fff;
  }
 
