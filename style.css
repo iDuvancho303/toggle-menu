@@ -74,15 +74,9 @@ body {
 
  }
 
- .nav-side-bar ul li {
-
+ .nav-side-bar ul li span, .nav-side-bar ul li a  {
+   line-height: 60px;
+   list-style: none;
  }
 
- .nav-side-bar ul li span {
-    
- }
-
- .nav-side-bar ul li a {
-
- }
 
