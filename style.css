@@ -72,6 +72,8 @@ body {
 
  .nav-side-bar ul {
    padding-top: 15px;
+   overflow: hidden;
+   /*visibility: hidden;*/
  }
 
  .nav-side-bar ul li {
@@ -88,6 +90,13 @@ body {
    color: #fff;
    font-family: arial;
    font-size: 16px;
+   white-space: nowrap;
+ }
+
+ 
+  .nav-side-bar ul li a:hover  {
+   background-color: #fff;
+   color: #192841;
  }
 
 
