@@ -19,4 +19,30 @@ let toggleNav = function() {
 
         toggleStatus = true;
     }
+
+
+    else if ( toggleStatus === true) {
+        getSidebar.style.width = "50px";
+        getSidebarTitle.style.opacity = "0.5";
+
+        let arrayLength = getSidebarLinks.length;
+
+        for (var i = 0; i < arrayLength; i++) {
+            getSidebarLinks[i].style.opacity = "0";
+        }
+
+        getSidebarList.style.visibility = "hidden";
+
+        toggleStatus = false;
+    }
+
+
+
+
+
+
+
+
 }
+
+
