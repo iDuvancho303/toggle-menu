@@ -71,12 +71,20 @@ body {
  }
 
  .nav-side-bar ul {
+   padding-top: 15px;
+ }
 
+ .nav-side-bar ul li {
+   line-height: 60px;
+   list-style: none;
  }
 
  .nav-side-bar ul li span, .nav-side-bar ul li a  {
-   line-height: 60px;
-   list-style: none;
+   display: block;
+   height: 60px;
+   padding: 0px 10px;
+   text-decoration: none;
+   text-transform: uppercase;
  }
 
 
