@@ -3,6 +3,8 @@ body {
 }
 
 .main-nav {
+    position: fixed;
+    top: 0;
     width: 100%;
     height: 60px;
     background-color: #fff;
@@ -48,7 +50,11 @@ body {
     color: #192841;
     font-weight: bold;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 16 px;
+    font-size: 16px;
+ }
+
+ .nav-side-bar {
+    position: fixed;
  }
 
 
