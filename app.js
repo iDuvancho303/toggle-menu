@@ -14,7 +14,7 @@ let toggleNav = function() {
         let arrayLength = getSidebarLinks.length;
 
         for (var i = 0; i < arrayLength; i++) {
-
+            getSidebarLinks[i].style.opacity = "1";
         }
     }
 }
