@@ -10,6 +10,11 @@ let toggleNav = function() {
         getSidebarList.style.visibility = "visible";
         getSidebar.style.width = "272px";
         getSidebarTitle.style.opacity = "0.5";
-        
+
+        let arrayLength = getSidebarLinks.length;
+
+        for (var i = 0; i < arrayLength; i++) {
+
+        }
     }
 }
