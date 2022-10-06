@@ -7,6 +7,9 @@ let toggleNav = function() {
     let getSidebarLinks = document.querySelectorAll(".nav-side-bar a");
     
     if ( toggleStatus === false) {
+        getSidebarList.style.visibility = "visible";
+        getSidebar.style.width = "272px";
+        getSidebarTitle.style.opacity = "0.5";
         
     }
 }
