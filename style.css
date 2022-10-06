@@ -67,6 +67,22 @@ body {
     padding: 0 5px;
     height: calc(100vh - 60px);
     background-color: #192841;
+    z-index: 1000;
  }
 
+ .nav-side-bar ul {
+
+ }
+
+ .nav-side-bar ul li {
+
+ }
+
+ .nav-side-bar ul li span {
+    
+ }
+
+ .nav-side-bar ul li a {
+
+ }
 
