@@ -22,5 +22,24 @@ body {
     color: #192841;
     padding-top: 5px;
     padding-left: 10px;
+    cursor: pointer;
  }
+
+ .main-nav ul {
+    display: flex;
+    flex-wrap: wrap;
+ }
+
+ .main-nav ul li {
+    list-style: none;
+ }
+
+ .main-nav ul li a {
+    display: block;
+    height: 100%;
+    padding: 0px 10px;
+    text-transform: uppercase;
+    text-decoration: none;
+ }
+
 
